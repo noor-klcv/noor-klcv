@@ -1,0 +1,21 @@
+<footer class="bg-primary" id="footer">
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 text-left">
+        <br>
+        <span>&copy; {{ "now" | date: "%Y"}} - </span> 
+        {{ site.title | escape }}
+        <span> All Right Reserved</span> 
+        <p>201901038838 (1348168-W)</p>
+      </div>
+      <div class="col-lg-4 col-md-4 text-left">
+        {% include social.html %}
+      </div>
+      <div class="col-lg-4 col-md-4 text-right">
+        <p class="text-faded"></p>
+        <a href="#top" class="page-scroll btn btn-default">back top</a>
+        <p class="text-faded"></p>
+      </div>
+    </div>
+  </div>
+</footer>
